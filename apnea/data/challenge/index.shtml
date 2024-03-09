@@ -1,0 +1,103 @@
+<!--#set var="TITLE" value="Obtaining CinC Challenge 2000 Scores"-->
+<!--#include virtual="/head.shtml"-->
+
+
+<h2>Preparing your entry</h2>
+
+<p>
+Your entry needs to be prepared in a special text format, which depends on
+the event you are entering:
+
+<ul>
+<li> For event 1 (Apnea Screening), download this <a
+href="template-test-1">template</a>,
+and replace the '?' characters with your classifications ('A', 'B', or 'C')
+for the 35 records in the test set (records x01-x35).
+
+<li> For event 2 (Quantification of Apnea), download this <a
+href="template-test-2">template</a>,
+and replace the '?' characters with your annotations ('A' or 'N') for each
+minute during each of the 35 records in the test set.
+</ul>
+
+<p>
+There are also templates for submitting results from the training set (records
+a01-a20, b01-b05, and c01-c10) for <a
+href="template-training-1">event 1</a>
+and <a
+href="template-training-2">event
+2</a>, so that you can obtain unofficial scores for these records as well.
+Awards will be made on the basis of results from the test set (records x01-x35)
+only.
+
+<p>
+If you have prepared annotation files in the same format as the <tt>*.apn</tt>
+files provided with the training set, you can download this <a
+href="distill.c">program</a>
+(in C source form, to be compiled with the <a href="/physiotools/wfdb.shtml">
+WFDB library</a>) that can convert them to the format of either of these
+templates.
+
+<h2>Submitting your entry for scoring</h2>
+
+<p>
+Please double-check your entry before submitting it to be sure it is in
+<strong>plain text</strong> format, exactly like the template files.
+<em>HTML-formatted entries will confuse the automated scorer and will not be
+scored.</em>
+
+<p>
+To submit your entry successfully, you will need:
+
+<ul> 
+<li> A web browser that supports HTTP uploads, such as Netscape 2.0 or
+ later, or MS Internet Explorer 4.0 or later.
+
+<li> A valid e-mail address that is known to us.  Please
+ <a href="/register.shtml">sign in</a> before submitting your entry.
+ (If you signed in on a previous visit, you do not need to sign in again.)
+ All entries are logged by date, time, and the e-mail address of the
+ entrant.
+
+ <p>
+ <b>Important:</b>  Your score will be sent by e-mail to the address you
+ specify.  Please be sure that your e-mail address is entered correctly,
+ or you won't be able to view your score.
+
+<li> A password.  If you don't yet have a password, or if you
+ have forgotten your password, go to the entry form (see below), fill
+ in only your e-mail address, click on the "Get password" button, and a
+ password will be sent to your e-mail address immediately.
+</ul>
+
+<p>
+After filling in your e-mail address and password on the 
+<a>entry form [link disabled]</a>,
+enter the name of the file that contains your correctly-formatted entry
+(you may use the <b>Browse</b> button to find it), indicate which
+event you wish to enter, which data set you are submitting results for,
+and click on <b>Upload entry</b>.
+
+<p>
+(If you wish to enter both events, you may do so, but you will need to
+submit your entry twice, once in each format, in this case.)
+
+<h2>Notes</h2>
+<p>
+If you are tempted to try submitting many entries in order to learn about
+the correct classifications, why not <a
+href="http://www.lizardpoint.com/fun/mastermind/mastmind.html"
+target="other">play MasterMind instead?</a>  Delivery of your score may be
+delayed if you submit more than one entry per event per day.
+
+<p>
+UNIX versions of Netscape, and possibly other browsers, will allow the
+user to specify a directory name in the <b>File to upload</b> field of the
+entry form, but the browser will not transmit anything in this case and will
+hang until the user interrupts it by clicking on <b>Stop</b>.  This behavior
+is a bug in the browser and cannot be detected or avoided by the PhysioNet web
+server.  Other browsers will detect and disallow attempts to upload
+directories.
+
+<!--#include virtual="/dir-footer.shtml" -->
+
